@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#0A0A0A">
+<meta name="apple-mobile-web-app-title" content="MID8 Training">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
+
+<title>MID8 — Midfielder Training</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<style>
+/* Your original full CSS goes here — paste everything from :root to the end of the <style> tag */
+:root {
+  --black: #0A0A0A;
+  --dark: #111111;
+  --card: #181818;
+  --card2: #1E1E1E;
+  --border: #2A2A2A;
+  --green: #00E676;
+  --green-dim: #00C853;
+  --green-glow: rgba(0,230,118,0.15);
+  --amber: #FFB300;
+  --red: #FF5252;
+  --blue: #7BA7E8;
+  --purple: #B388FF;
+  --cyan: #00E5FF;
+  --white: #F5F5F5;
+  --muted: #888;
+  --safe: env(safe-area-inset-bottom, 0px);
+}
+* { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+html, body { height:100%; background:var(--black); font-family:'Barlow',sans-serif; color:var(--white); overscroll-behavior:none; }
+.app { display:flex; flex-direction:column; height:100dvh; max-width:480px; margin:0 auto; background:var(--black); overflow:hidden; position:relative; }
+
+/* ... paste ALL your original CSS here (the entire <style> content) ... */
+
+</style>
+</head>
+<body>
+<div class="app">
+<!-- Your entire original <body> content goes here (from <div class="app"> to the end of the toast) -->
+<!-- Paste everything you had inside the <body> tag -->
+
+</div>
+
+<!-- Add this script at the very end, just before </body> for basic offline support -->
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js').catch(err => console.log('Service Worker registration failed:', err));
+  });
+}
+</script>
+
+<script>
+// Your original full JavaScript code goes here
+// (everything from // ── DATA ── to the end of the <script> tag)
+</script>
+
+</body>
+</html>

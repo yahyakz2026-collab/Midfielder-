@@ -1,0 +1,26 @@
+{
+  "name": "MID8 — Midfielder Training",
+  "short_name": "MID8 Training",
+  "description": "8-week wingback to box-to-box midfielder training program. Pitch, gym, cone drills, recovery & mental training.",
+  "start_url": "/?source=pwa",
+  "display": "standalone",
+  "background_color": "#0A0A0A",
+  "theme_color": "#00E676",
+  "orientation": "portrait-primary",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["fitness", "sports"]
+}
